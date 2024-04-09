@@ -1,9 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+// import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import mozfin from "@/public/images/mozfin.jpeg";
-import chotech from "@/public/images/chotech.jpeg";
+import zpaytech from "@/public/images/zpaytech.jpeg";
 import topuniverse from "@/public/images/topuniverse.jpeg";
 
 export const links = [
@@ -83,9 +83,9 @@ export const projects = [
 		source_code_link: "http://mozfin.com/",
 	},
 	{
-		name: "Chotech Renergy",
+		name: "Zpay Tech",
 		description:
-			"Web-based company website that allows users to know about the chotech brand, their services and what they are involved in and the businesses they run.",
+			"Zpay is a cutting-edge fintech company driven by a team of passionate professionals who share a common goal to transform the financial landscape.",
 		tags: [
 			{
 				name: "nextjs",
@@ -100,8 +100,8 @@ export const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: chotech,
-		source_code_link: "https://chotech.com.ng/",
+		image: zpaytech,
+		source_code_link: "http://zpaytech.com/",
 	},
 	{
 		name: "Top Universe",
