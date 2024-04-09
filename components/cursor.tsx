@@ -41,7 +41,7 @@ export const Cursor: React.FC<CursorProps> = () => {
 			document.removeEventListener("mousemove", mouseEventsListener);
 			cancelAnimationFrame(animateEvent);
 		};
-	}, []);
+	}, [animate]);
 
 	useEffect(() => {
 		const mouseEventListener = (e: MouseEvent) => {

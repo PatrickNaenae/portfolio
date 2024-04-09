@@ -56,9 +56,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 								window.open(source_code_link, "_blank")
 							}
 							className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
-							<img
+							<Image
 								src={"/images/github.png"}
 								alt='source code'
+								width={100}
+								height={100}
 								className='w-1/2 h-1/2 object-contain'
 							/>
 						</div>

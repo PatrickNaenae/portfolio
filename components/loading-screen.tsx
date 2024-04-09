@@ -19,7 +19,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({
 				setStarted(true);
 			}, 500);
 		}
-	}, [progress, total, loaded, item]);
+	}, [progress, total, loaded, item, setStarted]);
 
 	return (
 		<div
