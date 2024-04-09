@@ -9,7 +9,6 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import Office from "./office";
 import { Canvas } from "@react-three/fiber";
 import CanvasLoader from "@/app/Loading";
 import { OrbitControls, Preload } from "@react-three/drei";
