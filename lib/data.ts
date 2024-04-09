@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 // import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import mozfin from "@/public/images/mozfin.jpeg";
-import zpaytech from "@/public/images/zpaytech.jpeg";
+import zpaytech from "@/public/images/zpaytech.png";
 import topuniverse from "@/public/images/topuniverse.jpeg";
 
 export const links = [
